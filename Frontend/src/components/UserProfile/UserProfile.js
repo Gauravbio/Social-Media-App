@@ -57,7 +57,7 @@ const UserProfile = () => {
         }
       })
     }
-  },[user,me._id]);
+  },[user,params.id,me._id]);
 
   const alert = useAlert();
 

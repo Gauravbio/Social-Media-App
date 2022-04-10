@@ -111,7 +111,7 @@ export const logoutUser= () => async (dispatch)=> {
             type:"LogoutUserRequest"
         })
         
-        const {data}=await axios.get("/api/v1/logout");
+        await axios.get("/api/v1/logout");
 
         dispatch({
             type:"LogoutUserSuccess",

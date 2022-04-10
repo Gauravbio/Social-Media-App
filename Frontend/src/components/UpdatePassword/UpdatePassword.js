@@ -27,7 +27,7 @@ const UpdatePassword = () => {
         alert.success(message);
         dispatch({type: "clearMessage"})
     }
-  },[dispatch,error,alert,,message]);
+  },[dispatch,error,alert,message]);
 
   return (
     <div className="updatePassword">
